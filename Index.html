@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>positioning in css</title>
+        <style>
+            div { right: 30px;
+            border: 3px solid red ;}
+.absolute {position: absolute;
+ left: 50px; border: 3px solid blue;}
+ .relative {position: relative;
+top: 300px; left: 100px;
+border: 3px solid blue;}
+.fixed { position: fixed;
+top: 0%; right: 20px; width: 300px;
+border: 2px solid blueviolet;}
+div.sticky { top: 0%;
+position: sticky; left: 20px; width: 100px;
+border: 2px solid blueviolet;}
+        </style>
+    </head>
+    <body>
+        <h2>positioning</h2>
+        <div>Cats without a position property just lounge around lazily, like a default static cat on the couch.</div>
+        <div class="relative">Cats with relative positioning can shift a bit from their original spot, like a curious feline exploring nearby.
+            <div class="absolute">Absolutely positioned cats are independent and float freely, ignoring the flow of other elements—just like a cat who does whatever it wants.</div>
+        </div>
+        <div class="fixed">Fixed position cats stay anchored in one place, no matter how much you scroll, guarding the top of the page like a vigilant house cat.</div>
+        <br><br><br><br><br><br><br><br><br>
+        <div class="sticky">Sticky cats cling to the top when you scroll past them, much like a playful kitten that won't let go of your leg.</div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <p>Fun fact: Did you know cats have a special sense of balance thanks to their inner ear? Just like how CSS positioning helps elements stay in place on a webpage!</p>
+        <img src="https://example.com/cat-image.jpg" alt="A cute cat demonstrating positioning" style="width: 200px; height: auto;">
+    </body>
+</html>
 
